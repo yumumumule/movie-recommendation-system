@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "movielens-numpy-recommender"
+version = "1.0.0"
+description = "Reproducible MovieLens experiments and NumPy matrix factorization"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "pandas>=2.2,<3", "matplotlib>=3.8,<4"]
+
+[tool.setuptools.packages.find]
+include = ["src*", "experiments*", "scripts*"]
+
+[tool.setuptools.package-data]
+src = ["certs/*.pem"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 99
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

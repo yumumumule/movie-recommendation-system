@@ -1,0 +1,35 @@
+{
+  "seed": 42,
+  "split": "global random interaction holdout, 70/15/15 (floored holdouts)",
+  "n_factors": [
+    8,
+    16,
+    32
+  ],
+  "regularization": [
+    0.02,
+    0.1,
+    0.3
+  ],
+  "learning_rate": [
+    0.005,
+    0.01
+  ],
+  "max_epochs": 60,
+  "batch_size": 256,
+  "patience": 7,
+  "min_delta": 1e-05,
+  "bias_regularization": [
+    1.0,
+    5.0,
+    10.0,
+    20.0
+  ],
+  "rating_clip": [
+    0.5,
+    5.0
+  ],
+  "ranking_k": 10,
+  "relevance_threshold": 4.0,
+  "selection_metric": "validation RMSE; no train+validation refit for reported test scores"
+}

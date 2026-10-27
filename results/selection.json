@@ -1,0 +1,29 @@
+{
+  "selected_model": "Matrix Factorization",
+  "validation_rmse": {
+    "Global Mean": 1.0422503810415482,
+    "User Mean": 0.9464279406821194,
+    "Item Mean": 0.9725571939981567,
+    "Bias CF": 0.8640637441060851,
+    "Matrix Factorization": 0.8526400622205208
+  },
+  "seed": 42,
+  "matrix_factorization": {
+    "params": {
+      "n_factors": 32,
+      "learning_rate": 0.01,
+      "regularization": 0.1,
+      "epochs": 60,
+      "batch_size": 256,
+      "patience": 7,
+      "min_delta": 1e-05,
+      "seed": 42
+    },
+    "best_epoch": 58
+  },
+  "bias_cf": {
+    "regularization": 1.0,
+    "epochs": 30
+  },
+  "protocol": "All choices frozen before test rating or ranking evaluation"
+}

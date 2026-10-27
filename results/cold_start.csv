@@ -1,0 +1,5 @@
+segment,n_ratings,rmse,mae
+warm,14504,0.8484980135710054,0.6501914903638588
+unknown_user,0,,
+unknown_item,621,1.052129949811215,0.8177731034834712
+unknown_both,0,,

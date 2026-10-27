@@ -1,0 +1,33 @@
+{
+  "completed_at_utc": "2026-10-27T20:26:12.253359+00:00",
+  "python": "3.12.9",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.3"
+  },
+  "seed": 42,
+  "n_ratings": 100836,
+  "n_users": 610,
+  "catalogue_movies": 9742,
+  "rated_movies": 9724,
+  "split_sizes": {
+    "train": 70586,
+    "validation": 15125,
+    "test": 15125
+  },
+  "input_sha256": {
+    "ratings.csv": "aa289ca83157595d0df6aea1be6a4ded676ddc4385472e8313a8ed9805352646",
+    "movies.csv": "5a5f32dd9bb3797b8e728a1b98958789d2b13f294a69fdfbc5727f8a9611aa07"
+  },
+  "split_sha256": {
+    "train": "ea251aca991da283e09f0e16bd42a46a9ca952bc873c3c288a710ef6dda510b2",
+    "validation": "a7c4b3cef2b85aad017090dc6913853b78304860ae77c6e0d8c7ba4d98283b26",
+    "test": "0fda75122ee4d6e8413059ebc668b2e3c08d03d3df39e766e6b43ed52bc65e1e"
+  },
+  "git_base_commit": "1306bd52e49dbc791505ae18d898aa8f9d6de1ff",
+  "training_and_evaluation_seconds": 72.37456349999411,
+  "split_hash_format": "UTF-8 CSV, columns userId/movieId/rating/timestamp, LF line endings",
+  "archive_sha256": "696d65a3dfceac7c45750ad32df2c259311949efec81f0f144fdfb91ebc9e436"
+}

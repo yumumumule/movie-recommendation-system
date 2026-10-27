@@ -205,6 +205,14 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Local MovieLens data, fitted parameters, and machine-specific artifacts
+data/raw/
+artifacts/
+*.npz
+*.zip
+.tools/
+results/reproduced*/
+
 # Ruff stuff:
 .ruff_cache/
 
